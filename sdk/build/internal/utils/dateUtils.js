@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MS_IN_SEC = exports.SEC_IN_DAY = exports.HOURS_IN_DAY = exports.SEC_IN_MIN = exports.MIN_IN_HOUR = exports.DAYS_IN_WEEK = exports.DAYS_IN_MONTH = void 0;
+exports.DAYS_IN_MONTH = 30;
+exports.DAYS_IN_WEEK = 7;
+exports.MIN_IN_HOUR = 60;
+exports.SEC_IN_MIN = 60;
+exports.HOURS_IN_DAY = 24;
+exports.SEC_IN_DAY = exports.HOURS_IN_DAY * exports.MIN_IN_HOUR * exports.SEC_IN_MIN;
+exports.MS_IN_SEC = 1000;
